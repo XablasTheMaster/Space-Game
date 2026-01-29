@@ -12,4 +12,7 @@ while is_running:
         if event.type == pg.QUIT:
             is_running = False
 
+    screen.fill("cornflowerblue")
+    pg.display.flip()
+
 pg.quit()
