@@ -5,6 +5,7 @@ pg.init()
 WINDOW_WIDTH = 1280
 WINDOW_HEIGHT = 720
 screen = pg.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
+pg.display.set_caption("Space Game")
 is_running = True
 
 while is_running:
